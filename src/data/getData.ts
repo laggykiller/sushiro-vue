@@ -1,12 +1,12 @@
 /* eslint-disable */
 import axios, { Axios } from 'axios'
 import { Store, ReturnData } from '@/data/classes'
-const corsAnywhereUrl: string = 'https://cors.freehi.workers.dev/?'
+const corsAnywhereUrl: string = 'https://corsproxy.io/?url='
 
 export async function getStoreList(): Promise<Store[]>{
     try{
         let storeArray: Store[] = [];
-        const response = await axios(`${corsAnywhereUrl}https://sushipass.sushiro.com.hk/api/2.0/info/storelist?latitude=22&longitude=114&numresults=25&region=HK`);
+        const response = await axios(`${corsAnywhereUrl}https://sushipass.sushiro.com.hk/api/2.0/info/storelist?latitude=22&longitude=114&numresults=100&region=HK`);
         const responseArray = response.data;
         storeArray = responseArray.map((store: Store) =>{
             const { id, storeStatus, netTicketStatus, wait, name, address, area, latitude, longitude } = store;

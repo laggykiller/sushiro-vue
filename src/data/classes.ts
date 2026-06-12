@@ -1,5 +1,5 @@
 import axios from 'axios';
-const corsAnywhereUrl = 'https://cors.freehi.workers.dev/?'
+const corsAnywhereUrl = 'https://corsproxy.io/?url='
 
 export interface ReturnData {
     status: string,
