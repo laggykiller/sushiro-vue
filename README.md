@@ -1,5 +1,5 @@
 <div align = center>
-<img src="https://raw.githubusercontent.com/angus6b23/sushiro-vue/master/public/assets/icon/sushi.svg" width="800" height="300" alt="hk-transport-logo">
+<img src="https://raw.githubusercontent.com/laggykiller/sushiro-vue/master/public/assets/icon/sushi.svg" width="800" height="300" alt="hk-transport-logo">
 </div>
 
 # Sushiro-vue
@@ -11,7 +11,7 @@ Know how long is the queue of a chain sushi restaurant in Hong Kong at a glance.
 
 ## Features
 
-- [Live site / 網址](https://sushiro.12a.app)
+- [Live site / 網址](https://laggykiller.github.io/sushiro-vue/)
 - Have a quick peek at the queue of sushi restaurant (Sushiro)
 - No annoying ads
 - Mark your restaurant for auto update
@@ -24,7 +24,7 @@ Know how long is the queue of a chain sushi restaurant in Hong Kong at a glance.
 
 1.  Clone the git repository
 
-    `https://github.com/angus6b23/sushiro-vue.git`
+    `https://github.com/laggykiller/sushiro-vue.git`
     
 2.  Run yarn / npm
 
